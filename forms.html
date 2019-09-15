@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <p>Form</p>
+        <p>Input With Legend/Fieldset and Labels</p>
+        <form>
+            <fieldset>
+                <legend>User Credentials
+                </legend>
+                <label>Username: <input type="text" name="username"/></label>
+                <label>Password: <input type="text" name="password"/></label>
+        </fieldset>
+            <br/><br/>
+        <fieldset>
+            <legend>User Address</legend>
+            <label for="street" /> Street
+            </label>
+            <input id="street" name="address-1" type="text"/>
+            <br/>
+
+            <label for="city" /> City
+            </label>
+            <input id="city" name="address-2" type="text"/>
+            <br/>
+
+            <label for="state" /> State
+            </label>
+            <select> id="state" name="state">
+                <option value="VA">VA</option>
+                <option value="AZ">AZ</option>
+                <option value="DC">DC</option>
+                <option value="MD">MD</option>
+                <option value="IL">IL</option>
+            </select>
+            <br/>
+            <label for="zipcode" /> Zipcode
+            </label>
+            <input id="zipcode" name="address-4" type="text" maxlength="5"/>
+            <br/>
+            <form>
+                <input /> <!--
+                Self-closing tag -->
+                <button type="submit">Submit </button>
+            </form>
+        </fieldset>
+        </form>
+    </body>
+</html>
