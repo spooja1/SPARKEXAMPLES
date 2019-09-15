@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Selector (Parent>Child)</title>
+    <style>
+        * {
+            font-family: Calibri; padding: 15px 0cm;
+        }
+        div > P {
+            background: rgb(230, 76, 76);color: antiquewhite;
+            }
+        .blue {
+            color: blue;
+        }
+        #greenyellow {
+            color: greenyellow;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 id="greenyellow">Favorite Books</h1>
+        <p>These are my favorite books</p>
+        <h2 class="blue">Favorite Subjects</h2>
+        <p class="blue">These are my favorite subjects</p>
+        <div class="1">
+            <p>Computer Science, Math, and Phisics are my favorite subjects</p>
+            <article class="2">
+                <p>All those subjects are my favorite</p>
+            </article>
+        </div>
+    </body>
+</html>
