@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Tables</title>
+    <style>
+    table {
+        border: 2px solid black;
+        border-collapse: separate;
+        empty-cells: show;
+        border-spacing: 20px 40px; //specifies horizontaland verticle spacing 
+        (only works when border-collapse is set to seperate)
+    }
+    td, th {
+        border: 1px solid black
+    }
+        </style>
+</head>
+<body>
+   <div>
+       <table>
+           <tr>
+               <th>Amount:</th>
+               <td>Date:</td>
+           </tr>
+           <tr>
+               <td>5</td>
+               <td>09/15/19</td>
+           </tr>
+           <tr>
+               <td>10</td>
+               <td>09/16/19</td>
+           </tr>
+       </table>
+   </div>
+</body>
+</html>
